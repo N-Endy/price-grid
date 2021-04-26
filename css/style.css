@@ -1,0 +1,133 @@
+:root {
+    --primary-cyan: hsl(179, 62%, 43%);
+    --primary-light-cyan: hsl(179, 62%, 50%);
+    --primary-bright-yellow: hsl(71, 73%, 54%);
+
+    --neutral-light-grey: hsl(204, 43%, 93%);
+    --neutral-greyish-blue: hsl(218, 22%, 67%);
+
+    --fs: 16px;
+    --f-family: 'Karla', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom Properties */
+h3 {
+    margin-bottom: 0.8rem;
+}
+
+h4 { 
+    margin-bottom: 0.5rem;
+    color: var(--primary-bright-yellow);
+}
+
+.btn {
+    background: var(--primary-bright-yellow);
+    display: inline-block;
+    width: 94%;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    border-radius: 0.25rem;
+    color: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.158);
+}
+
+/* ------------------------------------------------ */
+body {
+    background: var(--neutral-light-grey);
+    font-family: var(--f-family);
+    font-size: var(--fs);
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        'a a'
+        'b c';
+    max-width: 640px;
+    border-radius: 30px;
+}
+
+.grid-items {
+    padding: 2rem;
+}
+
+.grid-items:nth-child(2),
+.grid-items:last-child {
+    color: #fff;
+}
+
+.a {
+    grid-area: a;
+    background: #fff;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.a h3 { color: var(--primary-cyan); }
+.a p { color: var(--neutral-greyish-blue); }
+
+.b {
+    grid-area: b;
+    background: var(--primary-cyan);
+    border-bottom-left-radius: 0.5rem;
+}
+
+.b h4 {
+    position: relative;
+    font-size: 33px;
+    color: #fff;
+}
+
+.b h4::after {
+    content: 'per month';
+    position: absolute;
+    top: 23%;
+    font-size: var(--fs);
+    margin-left: 1rem;
+    color: #f2f2f2bd;
+}
+
+.c {
+    grid-area: c;
+    background: var(--primary-light-cyan);
+    border-bottom-right-radius: 0.5rem;
+}
+
+.c li {
+    color: #f2f2f2e5;
+    list-style: none;
+    line-height: 1.35;
+}
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
