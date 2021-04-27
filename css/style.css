@@ -146,7 +146,7 @@ body {
     }
 
     .b {
-        border-bottom-left-radius: none;
+        border-bottom-left-radius: 0;
     }
 
     .c {
