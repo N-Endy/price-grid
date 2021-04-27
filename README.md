@@ -24,8 +24,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/N-Endy/price-grid)
-- Live Site URL: [Add live site URL here](https://n-endy.github.io/price-grid/)
+- Solution URL: (https://github.com/N-Endy/price-grid)
+- Live Site URL: (https://n-endy.github.io/price-grid/)
 
 ## My process
 
@@ -49,7 +49,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Useful resources
 
-- [Example resource 1](https://css-tricks.com) - Helped me with positioning of my elements and using Grid.
+- (https://css-tricks.com) - Helped me with positioning of my elements and using Grid.
 
 ## Author
 
