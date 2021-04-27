@@ -24,8 +24,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/N-Endy/price-grid)
+- Live Site URL: [Add live site URL here](https://n-endy.github.io/price-grid/)
 
 ## My process
 
@@ -53,5 +53,5 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/N-Endy)
 - Twitter - [@yourusername](https://www.twitter.com/NELtheDev)
